@@ -1,5 +1,29 @@
+body {
+  font-family: "Cinzel", serif;
+}
+
 .header {
   text-align: center;
   font-size: 3em;
-  font-family: "Cinzel", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  /* align-content: stretch; */
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  /* align-content: stretch; */
+}
+
+.item {
+  border: black solid 1px;
+  flex-basis: auto;
+  text-align: center;
+  flex-grow: 1;
 }
